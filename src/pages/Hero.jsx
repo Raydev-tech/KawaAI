@@ -11,6 +11,7 @@ import Testimonial from "./Testimonial";
 import Pricing from "./Pricing";
 import NewsletterSection from "./NewsletterSection";
 import FAQSection from "./FAQSection";
+import Contact from "./Contact";
 
 const Hero = () => {AIFinancialSection
   useEffect(() => {
@@ -87,6 +88,7 @@ const Hero = () => {AIFinancialSection
       <AboutUs />
       <Pricing />
       <Testimonial />
+      <Contact />
       <FAQSection />
       <NewsletterSection />
     </section>

@@ -5,9 +5,9 @@ const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { label: "Home", icon: <Home size={16} />, href: "#" },
+    { label: "Home", icon: <Home size={16} />, href: "/" },
     { label: "About", icon: <Info size={16} />, href: "#" },
-    { label: "Contact", icon: <Mail size={16} />, href: "#" },
+    { label: "Contact", icon: <Mail size={16} />, href: "#contact" },
   ];
 
   return (
